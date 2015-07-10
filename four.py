@@ -7,7 +7,7 @@ def digits(text):
 			return True
 	return False
 
-response = urllib2.urlopen('http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=1234')
+response = urllib2.urlopen('http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=1234f')
 html = response.read()
 index = 0
 while digits(html):
